@@ -1,0 +1,5 @@
+{% extends 'layouts/standard.nunj' %}
+
+{% block main %}
+
+{% endblock %}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %} {% endblock %}</title>
+  <link rel="stylesheet" href="/styles/master.css">
+</head>
+<body>
+
+  <header>
+    <h1>byteFair</h1>
+    <nav>
+      <ul>
+        <li>home</li>
+        <li>work</li>
+        <li>writing</li>
+        <li>contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  {% block main %} {% endblock %}
+
+  <script type="text/javascript" src="/scripts/bundle.js"></script>
+</body>
+</html>
