@@ -1,5 +1,41 @@
 {% extends 'layouts/standard.nunj' %}
 
-{% block main %}
+{% block title %}Byte Fair Development Co.{% endblock %}
 
+{% block main %}
+  <main class="index">
+    <section class="intro">
+      <h1>Byte Fair Development Co.</h1>
+      <p>Byte Fair is a development firm in St. Louis, Missouri. We write code for creatives who do not develop or need exceptional development skills for the complexity of their project. We specialize in browser/client neutral and mobile development with an emphasis on performance, speed, and user ease.</p>
+      <p>Simply put, if you have a design you need to work everywhere, Byte Fair is an optimal project partner. We understand design and we speak your language. If a design has technical issues, we provide options, not problems.</p>
+    </section>
+
+    <section class="services">
+      <h2>Development Services</h2>
+      <ul>
+        <li>Static and CMS Site Development</li>
+        <li>Installed Activation and Kiosk Presentations</li>
+        <li>Native Platform (PC, Mac, Android, iOS) Development</li>
+        <li>Embedded Hardware</li>
+        <li>Servers and Hosting Solutions</li>
+        <li>Program Design and Consultation</li>
+        <li>User Interface Consulting</li>
+        <li>Accessibility and Usability Consulting</li>
+      </ul>
+      <p>Byte Fair does not provide visual design or branding services although we can assist you referrals and relationships to some of the best design companies in the Midwest.</p>
+    </section>
+
+    <section class="clients">
+      <h2>Clientele</h2>
+      <p>For a more complete portfolio for <a href="/work.html">Paul Graham</a>, including in-house work at other companies, visit the <a href="/work.html">work page</a>.</p>
+      <ul>
+        <li>Craftsmen Industries</li>
+        <li>Auburn Leather Co.</li>
+        <li>Coolfire Studios</li>
+        <li>Turner Broadcasting</li>
+        <li>Allergan</li>
+        <li>&hellip;and many more!</li>
+      </ul>
+    </section>
+  </main>
 {% endblock %}

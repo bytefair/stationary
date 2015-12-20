@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{% block title %} {% endblock %}</title>
+  <title>{% block title %}Byte Fair{% endblock %}</title>
+  <meta name="description" content="{% block description %}Byte Fair is a development company in Saint Louis that provides dev services to creatives.{% endblock %}">
   <link rel="stylesheet" href="/styles/master.css">
 </head>
 <body>
@@ -11,8 +12,8 @@
     <h1>byteFair</h1>
     <nav>
       <ul>
-        <li>home</li>
-        <li>work</li>
+        <li><a href="/index.html">home</a></li>
+        <li><a href="/work.html">work</a></li>
         <li>writing</li>
         <li>contact</li>
       </ul>
