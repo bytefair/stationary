@@ -10,13 +10,17 @@ var browserSync = require('browser-sync')
 //   return JSON.parse(fs.readFileSync(path, 'utf8'))
 // }
 
-var templatesTask = function (env) {
+var templatesTask = function () {
   render.nunjucks.configure([
-    './src/templates/',
+    './src/templates',
     '!./src/templates/layouts',
     '!.src/templates/partials'], { watch: false })
 
-  return gulp.src('./src/templates/**/*.nunj')
+  return gulp.src([
+    './src/templates/**/*.nunj',
+    '!./src/templates/layouts/**/*',
+    '!./src/templates/partials/**/*'
+  ])
     // .pipe(data(getData))
     .on('error', handleErrors)
     .pipe(render())

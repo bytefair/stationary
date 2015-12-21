@@ -7,7 +7,7 @@ var browserSync = require('browser-sync')
 var webpackWatchTask = function (cb) {
   var initialCompile = false
 
-  webpack(config).watch(200, function (err, stats) {
+  webpack(config).watch(200, (err, stats) => {
     logger(err, stats)
     browserSync.reload()
     // On the initial compile, let gulp know the task is done

@@ -8,7 +8,7 @@ var opts = {
   optimizationLevel: 5
 }
 
-gulp.task('images', function () {
+gulp.task('images', () => {
   return gulp.src('./src/static/images/**/*.{png,svg,gif,jpeg,jpg}')
     .pipe(changed('./dist/images'))
     .pipe(imagemin(opts))
