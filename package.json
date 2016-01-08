@@ -1,7 +1,7 @@
 {
-  "name": "bytefair",
-  "version": "0.1.0",
-  "description": "Byte Fair website",
+  "name": "stationary",
+  "version": "3.0.0",
+  "description": "static site framework",
   "scripts": {
     "start": "gulp",
     "development": "gulp development",
@@ -9,11 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/bytefair/bytefair.git"
+    "url": "git+ssh://git@github.com/bytefair/stationary.git"
   },
   "author": "Paul Graham <paul@bytefair.com>",
-  "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/bytefair/bytefair#readme",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
     "babel-core": "^6.3.17",
